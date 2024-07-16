@@ -1,0 +1,14 @@
+HTML Boilerplate typically includes the following components:
+
+HTML: The markup language used to structure the content of a website.
+CSS: The language used for styling and layout of a website. This is optional.
+JavaScript: A programming language used for adding interactivity and dynamic functionality to a website. This is also optional.
+The HTML elements commonly found within an HTML boilerplate typically encompass:
+
+<!DOCTYPE html>: This declaration defines the document type and version of HTML being used, in this case, HTML5.
+<html lang="">: The <html> tag defines the root of an HTML document and contains all other HTML elements. We included lang in it as the lang attribute in the HTML tag is an important aspect of web accessibility and internationalization. The lang attribute specifies the language of the contents of a web page, which can help assistive technologies like screen readers understand and accurately read the text on the page. Additionally, the lang attribute can also impact search engine optimization (SEO) and the way text is rendered in different languages.
+<head>: This tag contains information about the document, such as the title, metadata, and links to CSS and JavaScript files, that is not displayed in the main body of the web page.
+<meta charset="UTF-8">: This tag defines the character encoding for the document, in this case, UTF-8. UTF-8 is a commonly adopted character encoding that supports a wide range of characters from different languages and scripts.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: This tag sets the viewport, which is the area of the browser window used to display the web page. The value width=device-width sets the width to the width of the device and initial-scale=1 sets the initial zoom level to 100%.
+<title>: This tag defines the title of the web page, which is displayed in the browser tab or title bar.
+<body>: This tag contains the main content of the web page, such as headings, text, images, videos, links, and buttons.
